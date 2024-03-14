@@ -1,0 +1,714 @@
+body {
+  background: black;
+  margin: 0;
+  padding: 0;
+}
+section {display:block}
+* {font-family: Montserrat,
+   sans-serif;}
+
+/*Estilos globais*/
+.container {
+  max-width: 100%;
+  margin: 0 auto;    
+}
+
+.header-menu > .container-dark {
+  top: 0;
+  height: 15vh;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  background: black;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+  display: block;
+  margin: 0 auto;
+  position: fixed;
+  z-index: 1000;
+}
+img.logo-dark {
+  display: block;
+  margin-left: 1rem;
+  width: 5vw;
+  height: auto;
+}
+
+/* Estilos de imagens spaceship-destaque */
+.spaceship-destaque {
+  position: relative; /* Adicione posição relativa ao contêiner */
+  
+}
+/*Estilos de imagens spaceship-destaque*/
+section.spaceship-destaque>img {
+  position: absolute;
+  bottom:0px;
+  margin-top: 50px;
+  margin-left: 400px;
+  height: 100%;
+  left: 0;
+  object-fit: cover;
+  height: auto;       /* Altere a altura para automático para manter a proporção */
+  max-height: 100%;   /* Defina uma altura máxima, se necessário */
+  top: 0;
+  width: 80%;
+  z-index: -1;
+  filter: brightness(0.78) opacity(1);
+}
+img, svg {
+  vertical-align: middle;
+}
+/*Conteiner de texto- container-letter*/
+.text-container-home {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left:0;
+}
+
+
+/*Estilo título principal*/
+.container-letter h2 {
+  font-size: 3rem;
+  flex-wrap: row;
+  color: whitesmoke;
+  margin-top:  200px;;
+  margin-left: 55px;  
+}
+/*Estilo caixa de texto*/
+.text-box-home h4{
+  text-align: justify;
+  margin-left: 50px;
+  margin-right: 800px;
+  margin-bottom:0;
+  margin-top: 1rem;
+  color: whitesmoke;
+  font-weight: 400; 
+  font-size: 1.3rem;
+}
+
+
+/*Estilo botão de saiba mais*/
+.button-container{
+  background-color:none;
+  border-color: whitesmoke;
+  border: 1.8px solid #fff;
+  border-radius: 25px;
+  display: flex;  
+  margin-right:0px;
+  margin-left: 200px;
+  width: 200px;
+  height: auto;
+  margin-top: 3rem; /*Para afastar elementos*/
+  box-shadow: -2px 5px 5px rgb(4, 50, 73);
+  transform: scale(1);
+  transition: all 300ms ease-in-out;
+  
+}
+.button-home-btn {
+  text-align: justify;
+  text-decoration: none;
+  font-size:1.2rem;
+  color: whitesmoke ;
+  min-width:25px;
+  margin: auto;
+  padding: 5px 5px;  
+}
+.button-container:hover {
+  background-color: rgb(142, 9, 86);
+  transition: all 0.2s;
+  transform: scale(1.02);
+}
+
+*, :after, :before {
+  box-sizing: border-box;
+  margin: 0;
+}
+/*Estilo segunda página*/
+.spaceship-venator {
+  padding: 2rem 0;
+  max-width: 767px;
+  min-height: auto;
+}
+.spaceship-venator {
+ 
+}
+
+.img-desk-venator {
+    display: block;
+}
+
+.img-desk-venator {
+  bottom: 400px;
+  top: 607px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+/*Título principal h2*/
+.title-ship-venator {
+  text-align: center;
+  color: #dd3278;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 0;
+  margin-top: 150px;  /* distancia acima do elemento */
+  margin-left: 0px;
+  
+}
+/*caixa de texto h3*/
+.know {
+  color: whitesmoke;
+  font-weight: 400;
+  margin-bottom: 0;  /* distancia embaixo */
+  margin-top: 80px;
+  margin-right: 0px;
+  margin-left: -380px;
+  text-align: center;
+  font-size: 1.6rem;
+  
+  }
+.know2 /*Segundo p titulo h3*/{
+  color: whitesmoke;
+  font-weight: 400;
+  margin-bottom: 0;  /* distancia embaixo */
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-left: -380px;
+  text-align: center;
+  font-size: 2rem;
+}
+.know-description {
+  color: whitesmoke;
+  font-weight: 400;
+  margin-bottom: 0;  /* distancia embaixo */
+  margin-top: 110px;
+  margin-right: -500px;
+  margin-left: 900px;
+  text-align: center;
+  font-size: 1.4rem;
+
+}
+.container-button-venator {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  padding: 0.10rem 0.2rem;
+  margin-top: -100px;
+  margin-left: 600px;
+  
+}
+.button-inline, .button-outline { /*diatncia entre elementos de botão*/
+  margin-bottom: 1.2rem;
+}
+.button-inline {
+  text-align: center;
+  text-decoration: none;
+  background-color: white;
+  border: 2px solid whitesmoke;
+  font-size: 1.2rem;
+  color:black;
+  min-width: 250px;
+  border-radius: 25px;
+  font-weight: 500px;
+  box-shadow: -2px 5px 5px rgb(4, 50, 73);
+  padding: 5px 5px;
+  }
+
+.button-inline:hover{
+  color: whitesmoke;
+  background-color: rgb(142, 9, 86);
+  transition: all 0.2s;
+  transform: scale(1.02);
+}
+
+
+.button-outline {
+  text-align: center;
+  text-decoration: none;
+  background-color: none;
+  border: 2px solid whitesmoke;
+  font-size: 1.3rem;
+  color:whitesmoke;
+  min-width: 250px;
+  border-radius: 25px;
+  font-weight: 500;
+  box-shadow: -2px 5px 5px rgb(4, 50, 73);
+  padding: 5px 5px;
+}
+.button-outline:hover{
+  background-color: rgb(142, 9, 86);
+  transition: all 0.2s;
+  transform: scale(1.02);
+}
+/*Estilos página AT-AT*/
+.image-container {
+  display:flex;
+}
+.img-desk-atat,
+.img-desk-atat77 {
+  max-width: 100%; /* Define a largura máxima como 100% do contêiner pai */
+  height: auto; /* Mantém a proporção original da imagem */
+  margin-right: 2%; /* Ajuste o valor conforme necessário */
+  margin-top: 20vh;
+}
+
+.title-ship-atat {
+  text-align: center;
+  color: #dd3278;
+  font-size:1.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  margin-top: -70vh;  /* distancia acima do elemento */
+}
+h5{
+  color: whitesmoke;
+  text-align: center;
+  font-size:1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  margin-top: 0px;
+}
+
+.at-at-armored /*texto da esquerda*/ {
+  color: white;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 1100px;
+  margin-top: 200px;
+}
+
+.center-text /*texto da direita*/{
+  color: white;
+  font-size: 20px;
+  margin-left: 1100px;
+  margin-right: 0px;
+  margin-top: -100px;
+ 
+}
+.container-button-atat {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  padding: 0.10rem 0.2rem;
+  margin-top: -100px;
+  margin-bottom: -3rem; 
+}
+.container-footer {
+  display: flex;
+  flex-direction: column; /* Organiza os elementos em coluna */
+  align-items: center; /* Centraliza o conteúdo verticalmente */
+  min-height: 100vh; /* Garante que o contêiner ocupe pelo menos toda a altura da tela */
+  margin-top: 200px;
+ 
+}
+.title-footer-spaceship {
+  text-align: center;
+  border-bottom: 1px solid whitesmoke;
+  line-height: 3rem;
+  font-weight: bold;
+  color: whitesmoke;
+  font-size: 20px;
+  margin-bottom: 10px; 
+}
+
+.title-footer  {
+  color: #dd3278;
+  font-size: 20px;
+  display: block;
+  margin-bottom: 15px;
+  font-weight: bold;
+  margin-left: -800px;
+}
+.item-footer-linha {
+  margin-left: -800px;
+  color: whitesmoke;
+  font-size: 18px;
+  margin-bottom: 1rem;;
+}
+.title-footer-tipo {
+  color: #dd3278;
+  font-size: 20px;
+  display: block;
+  margin-bottom: 40px;
+  font-weight: bold;
+  margin-top: -338px;
+}
+.item-footer {
+  color: whitesmoke;
+  font-size: 18px;
+  margin-bottom: 1rem;;
+}
+.list-footer, .coluna-footer {
+  display: flex;
+  flex-direction: column; /* Organiza os elementos em coluna */
+  text-align: center; /* Centraliza o texto dentro do contêiner */
+  padding: 0 40px; /* Adicione algum espaçamento interno nas colunas conforme necessário */
+}
+
+.sac-footer {
+  text-align: right;
+  color: whitesmoke;
+  margin-left: 800px;
+  margin-top: -300px;
+  margin-bottom: 0px;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #454141; /* Ajuste a cor conforme necessário */
+  margin: 10px 0;
+}
+.button-back-topo {
+  color:#fff;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid rgb(142, 9, 86);
+  border-radius: 30px 30px;
+  background: none;
+  padding: 10px 50px; 
+  margin-left: 900px;
+  margin-top: 280px;
+  box-shadow: 0 3px 3px 3px rgba(223, 150, 150, 0.15);
+}
+.button-back-topo:hover {
+  background-color: rgb(142, 9, 86);
+  transition: all 0.2s;
+  transform: scale(1.02);
+}
+
+
+
+
+
+/*imagemH*/ /*about*/
+.hangar {
+  min-width: 280px;
+}
+.spaceship-destaque-hangar {
+  display:flex
+}
+/*Texto título*/ /*about*/
+.container-text-hangar {
+margin-left:0px;
+color: rgb(7, 5, 70);
+font-size: 45px;
+margin-left: 15px;
+margin-right: 1150px;
+margin-top:150px; 
+}
+
+/*about*/
+.fixed-button-home {
+  position: fixed;
+  bottom: 80px;
+  left: 20px;
+  cursor: pointer;
+  background-color:none;
+  border-color: whitesmoke;
+  border: 2px solid #fff;
+  border-radius: 1rem;
+  padding: 10px 10px;
+  box-shadow: -2px 5px 5px rgb(4, 50, 73);
+  transform: scale(1);
+  transition: all 300ms ease-in-out;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+.fixed-button-home/*about*/ {
+  text-align: center; 
+  color: whitesmoke;
+  font-size:1rem;
+  margin: 0; /* Centraliza o botão horizontalmente */
+  transition: color 0.2s;  /*suaviza mudança na cor*/
+  text-decoration: none;
+  width:15%;
+
+}
+.fixed-button-home:hover/*about*/ {
+  background-color: rgb(142, 9, 86);
+  transition: all 0.2s;
+  transform: scale(1.02);
+  color:whitesmoke;
+  font-weight: bold;
+}
+.fixed-button-home:hover /*about*/{
+  color: whitesmoke;
+  font-weight: bold; /* negrito durante o hover */
+}
+
+.fixed-button-proposta {
+  color: whitesmoke;
+  font-size: 1rem;
+  width: 200px;
+  text-align: center;
+}
+.fixed-button-proposta {
+  position: fixed;
+  cursor: pointer;
+  bottom: 25px;
+  left: 20px;
+  background-color:none;
+  border-color: whitesmoke;
+  border: 2px solid #fff;
+  border-radius: 1rem;
+  padding: 10px 10px;
+  box-shadow: -2px 5px 5px rgb(4, 50, 73);
+  transform: scale(1);
+  transition: all 300ms ease-in-out;
+  transition: color 0.2s;  /*suaviza mudança na cor*/
+  text-decoration: none;
+  
+}
+.fixed-button-proposta:hover{
+  background-color: rgb(142, 9, 86);
+  transition: all 0.2s;
+  transform: scale(1.02);
+  color: whitesmoke;
+}
+
+/*Estilo segunda pagina spaceship-ring*/
+
+.img-ring/*about*/ {
+  margin-top:60px;
+  margin-left: 500px;
+  margin-right: auto;
+  height: 600px;
+  width: auto;
+  }
+
+
+.title-ring /*about*/{
+  color: antiquewhite;
+  margin-right: 800px;
+  font-size: 1.3rem;
+  text-align: center;
+  margin-top: -450px;
+  margin-bottom: 20px;
+
+}
+.ring-description h5{
+  text-align: left;
+  margin-left: 50px;
+  margin-right: 900px;
+  margin-top: 50px;
+  font-size: 16px;
+  color: whitesmoke;
+  line-height: 1.5em;
+}
+
+
+/*Botão voltar ao topo*//*about*/
+
+.img-enginer {
+  margin-left: 0px;
+  margin-top: 100px;
+  height: 500px;
+}
+
+
+.title-enginer {
+  margin-left: 600px;
+  color: whitesmoke;
+  margin-top: -400px;;
+  font-size: 20px;
+}
+.enginer-description h5 {
+  margin-left: 510px;
+  font-size:16px;
+  margin-top: 20px;
+  text-align: left;
+  margin-right: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+/*Formulario*/
+*, :after, :before {
+    box-sizing: border-box;
+}
+.form-container {
+  display: flex;
+}
+.form-proposta {
+    background: whitesmoke;
+    padding-top: 0px;
+    height: auto; /* Ajuste a altura conforme necessário */
+    width: 90%;
+    /*margin: auto;*/
+    margin-top: 10px;
+    position: relative;
+    margin: 50px auto 20px;
+}
+
+.form-content {
+    background: whitesmoke;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, .15);
+    padding: 2rem;
+    width: 60%;
+    /*margin: auto; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 70px auto; /* Ajuste a margem-top conforme necessário */
+    
+}
+
+h1 {
+    color: rgb(210, 48, 129);
+    font-size: 2rem;
+    text-align: center;
+    margin: 0;
+}
+
+h4 {
+    color: rgb(105, 97, 101);
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.col-lg-9 {
+    margin-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    background: rgb(248, 245, 245);
+    width: 100%;
+    max-width: 100%;
+}
+
+.row /*Form-content*/ {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: auto;
+    max-width: 100%;
+}
+
+
+
+
+
+.form-group {
+    margin-bottom: 30px; /* Adiciona um espaçamento entre os grupos de formulários */
+    margin-left: 0px; /* Adiciona espaço à esquerda */
+}
+
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+.row>* {
+    flex-shrink: 0;
+    max-width: 100%;
+    padding-left:35px;
+    padding-right:20px;
+    width: 100%;
+}
+
+.form-label span {
+    color: red;
+}
+
+
+input.form-control{
+    background: #e5f2e2;
+    border: none;
+    font-size: 1.2rem;
+    padding: 0.75rem 1rem;
+}
+.form-control {
+    appearance: none;
+    color: #212529;
+    display: block;
+    font-weight: 400;
+    line-height: 1.5;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    width: 100%;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, .15);
+}
+
+label {
+    cursor: default;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+/* Modificações para o container da row-button */
+.row-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px; /* Ajuste conforme necessário */
+}
+
+/* Estilos para o botão "Enviar" */
+.btn-enviar {
+    background: none;
+    border: 1px solid rgb(142, 9, 86);
+    border-radius: 20px;
+    font-size: 1rem; /* Ajuste o tamanho da fonte conforme necessário */
+    color: black; /* Cor do texto */
+    padding: 10px 50px; /* Ajuste conforme necessário */
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .15);
+    cursor:pointer;
+}
+
+
+.btn-enviar:hover {
+    color: white;
+    background-color: rgb(142, 9, 86);
+    transition: all 0.2s;
+    transform: scale(1.02);
+}
+
+.btn-enviar:disabled {
+    opacity: 0.5; /* Adiciona uma opacidade ao botão desativado */
+    cursor: not-allowed; /* Altera o cursor ao passar sobre o botão desativado */
+}
+
+.button-back-home {
+ color: black;
+ font-size:1rem;
+ text-align: center;
+ 
+ 
+}
+.button-back-home {
+ 
+  border: 2px solid #fff;
+  border-radius: 20px;
+  padding: 10px 25px;
+  box-shadow: -2px 5px 5px rgb(4, 50, 73);
+  transition: all 300ms ease-in-out;
+  transform: scale(1);
+  text-decoration: none;
+  cursor:pointer;
+  background: none;
+  margin-left:15px;
+  
+}
+
+.button-back-home:hover {
+  color: white;
+  background-color: rgb(142, 9, 86);
+  transition: all 0.2s;
+  transform: scale(1.02);
+}
